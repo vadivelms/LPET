@@ -1,0 +1,76 @@
+body {
+	background-color: #dce6f7;
+}
+
+.button {
+	background-color: #450cf2;
+	border: none;
+	color: white;
+	padding: 10px 10%;
+	width: 200px;
+	display: inline-block;
+	font-size: 26px;
+	border-radius: 5px;
+	font-family: inherit;
+	transition-duration: 0.4s;
+	font-weight: bold;
+}
+
+.button:HOVER,.back_button:HOVER {
+	
+		transition-duration: 0.4s;
+background-color: #3c4545;
+
+box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0
+		rgba(0, 0, 0, 0.19);
+}
+
+.adduserbox {
+	padding: 10px;
+	background-color: #e9b6f9;
+}
+
+.adduser_form {
+	width: 50%;
+	margin: 0 auto;
+	background: rgba(130, 130, 130, .3);
+	padding: 20px 22px;
+	border: 1px solid;
+	border-top-color: rgba(255, 255, 255, .4);
+	border-left-color: rgba(255, 255, 255, .4);
+	border-bottom-color: rgba(60, 60, 60, .4);
+	border-right-color: rgba(60, 60, 60, .4);
+	margin-top: 4%;
+}
+
+.testfield, .textbox {
+	width: 300px;
+	padding: 10px 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	font-size: 16px;
+}
+
+.back_button {
+	float: right;	
+	background-color: #450cf2;
+	border: none;
+	color: white;
+	padding: 10px 50px;
+	font-size: 26px;
+	border-radius: 5px;
+	font-family: inherit;
+}
+
+td {
+	font-size: 20px;
+}
+
+#message {
+	background-color: white;
+	font-size: 20px;
+	color: #0000ff;
+	font-weight: bold;
+	border-radius: 3px;
+}

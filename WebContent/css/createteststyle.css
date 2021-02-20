@@ -1,0 +1,56 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	background-color: #eef5f7;
+}
+
+.button {
+	background-color: #450cf2;
+	border: none;
+	color: white;
+	padding: 10px 22px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 26px;
+	margin: 4px 2px;
+	cursor: pointer;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0
+		rgba(0, 0, 0, 0.19);
+	width: 200px;
+	border-radius: 5px;
+	
+}
+
+.button:HOVER {
+	transition-duration: 0.4s;
+	background-color: #3c4545;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0
+		rgba(0, 0, 0, 0.19);
+}
+
+.back {
+	float: right;
+}
+
+.inputfield {
+	padding: 8px;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	width: 250px;
+	font-size: 16px;
+}
+
+.allquestions {
+	background-color: #f2f4f7;
+	width: 100%;
+	padding: 10px;
+}
+
+.logout {
+	float: right;
+}

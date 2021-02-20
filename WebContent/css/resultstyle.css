@@ -1,0 +1,30 @@
+@CHARSET "ISO-8859-1";
+.button,.back_button {
+	background-color: #450cf2;
+	border:none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	font-family:cursive;
+	width: 220px;
+	display: inline-block;
+	font-size: 16px;
+	text-transform:uppercase;
+	font-weight:bold;
+	margin: 4px 2px;
+	cursor: pointer;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0
+		rgba(0, 0, 0, 0.19);
+	display: inline-block;
+	border-radius: 5px;
+}
+.button:HOVER,.back_button:HOVER{
+transition-duration: 0.4s;
+background-color: #3c4545;
+
+box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0
+		rgba(0, 0, 0, 0.19);
+}
+.back_button{
+	float: right;
+}

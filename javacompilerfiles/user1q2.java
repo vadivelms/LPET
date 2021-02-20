@@ -1,0 +1,1 @@
+import java.util.Scanner;class user1q2{public static void main(String args[]){Scanner sc=new Scanner(System.in);String input1=sc.nextInt();String input2=sc.nextInt();myFunction(input1,input2);}static void myFunction(int input1,int input2){}}

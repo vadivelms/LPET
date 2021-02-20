@@ -1,0 +1,46 @@
+@CHARSET "ISO-8859-1";
+body {
+	background-color: #eef5f7;
+}
+
+
+table {
+    border-collapse: collapse;
+ text-align:center;
+   width: 100%;
+  
+}
+
+th, td {
+    
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+tr:nth-child(odd){background-color: #eae9fe}
+
+th {
+    background-color: #2116e7;
+    color: white;
+}
+caption {
+	font-size: 25px;
+	font-weight: bold;
+}
+.list{
+	 margin-top: 5%;
+	width: 80%;
+	background-color: window;
+	padding: 20px;
+	border-radius: 5px;
+}
+.testbtn{
+
+	padding: 10px 20px;
+	background-color: #ff9933;
+	border: 1px solid #ff9933;
+	width: 100px;
+}
+.testbtn:HOVER {
+	background-color: fuchsia;
+}
